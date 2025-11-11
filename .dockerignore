@@ -1,0 +1,53 @@
+# Git files
+.git
+.gitignore
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Model outputs and cache
+output/
+lora_finetuned*/
+test_lora_output/
+*.pth
+*.bin
+*.safetensors
+cache/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Documentation (not needed for test)
+README.md
+README_MODULE.md
+example_usage.py
+
+# Data files
+data/
+*.csv
+*.json
+*.txt
